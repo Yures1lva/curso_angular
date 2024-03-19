@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class FirstComponentComponent {
   name = "Yuro"
   age = 24
+  job = "Programador"
   car = {
     name: "gol",
     year: 2010
