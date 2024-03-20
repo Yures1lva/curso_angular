@@ -29,4 +29,6 @@ export class ListRenderComponent {
   getAnimals(): void {
     this.listService.getAll().subscribe((animals) => (this.animals = animals));
   }
+
+ 
 }
